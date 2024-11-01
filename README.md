@@ -8,6 +8,32 @@ This project builds a Naive Bayes model to predict the career longevity of NBA p
 - **Features**: Rookie-year stats and engineered features
 - **Target**: Boolean value indicating a career duration of five years or more
 
+# NBA Player Career Prediction Model using Naive Bayes
+
+## Introduction
+
+This project uses a Naive Bayes model to predict the career duration of NBA players based on their rookie-year performance statistics. The model helps identify players likely to stay in the NBA for over five years, offering valuable insights for management and coaches. This project leverages feature-engineered data that is now ready for modeling.
+
+## Data Dictionary
+
+The dataset contains performance metrics for 1,341 NBA players. Each feature below represents a different aspect of a player's performance:
+
+| Column Name      | Type | Description                                                                 |
+|------------------|------|-----------------------------------------------------------------------------|
+| `fg`             | int  | Made field goal percentage                                                  |
+| `3p`             | int  | Made 3-point field goal percentage                                          |
+| `ft`             | int  | Made free throw percentage                                                  |
+| `reb`            | int  | Average rebounds per game                                                   |
+| `ast`            | int  | Average assists per game                                                    |
+| `stl`            | int  | Average steals per game                                                     |
+| `blk`            | int  | Average blocks per game                                                     |
+| `tov`            | int  | Average turnovers per game                                                  |
+| `target_5yrs`    | int  | Player's career duration over five years (0 = no, 1 = yes)                 |
+| `total_points`   | int  | Total points scored across five years                                       |
+| `efficiency`     | int  | Total points divided by minutes played per game                             |
+
+> **Note**: A "field goal" in basketball means the ball has gone through the hoop during play, resulting in points scored. Players score 2 or 3 points based on their position from the hoop, and 1 point for free throws due to fouls.
+
 ## Objective
 Create a model that assists NBA management by identifying players with high long-term potential. This tool can inform decisions on training, scouting, and player retention.
 
