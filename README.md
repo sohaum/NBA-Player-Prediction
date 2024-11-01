@@ -8,12 +8,6 @@ This project builds a Naive Bayes model to predict the career longevity of NBA p
 - **Features**: Rookie-year stats and engineered features
 - **Target**: Boolean value indicating a career duration of five years or more
 
-# NBA Player Career Prediction Model using Naive Bayes
-
-## Introduction
-
-This project uses a Naive Bayes model to predict the career duration of NBA players based on their rookie-year performance statistics. The model helps identify players likely to stay in the NBA for over five years, offering valuable insights for management and coaches. This project leverages feature-engineered data that is now ready for modeling.
-
 ## Data Dictionary
 
 The dataset contains performance metrics for 1,341 NBA players. Each feature below represents a different aspect of a player's performance:
